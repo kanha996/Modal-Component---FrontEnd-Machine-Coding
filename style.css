@@ -21,7 +21,7 @@ body{
   max-height: 240px;
 }
 #modal-body{
-  display:grid;
+  display:none;
   position: fixed;
   top: 0;
   left: 0;
