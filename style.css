@@ -1,3 +1,39 @@
-.wow {
-  width: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+#modal-in{
+  display: grid;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+
+#modal-out{
+  display: none;
+}
+
+#modal-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+#close-btn{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 40%;
+  cursor: pointer;
+}
+#modal-btn{
+  width: fit-content;
+  margin: 10px 10px 10px 10px;
+  height: 30px;
+  position: relative;
+  left: 30px;
+  background-color: #405cf5;
+  border-radius: 12px;
+  color: white;
 }
