@@ -49,7 +49,7 @@ body{
   display: flex;
   align-items: center;
   position: relative;
-  left: 30%;
+  left: 33%;
   cursor: pointer;
 }
 #modal-btn{ 
